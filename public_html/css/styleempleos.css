@@ -1,0 +1,145 @@
+.aetiemp{
+    font-weight: 300;
+    color: black;
+}                   
+
+.divemp{
+    background-color: whitesmoke;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 6px;
+}
+
+.divempcen{
+  
+    width: 100%;
+    text-align: left;
+    border-radius: 6px;
+    border-top: 15px;
+}
+
+.divempcentitulo{
+    background-color: rgb(99, 161, 231);
+    border-radius: 6px;
+}
+.hcampo{
+    font-weight: 3000;
+    color: black;
+}
+
+
+.aetiemptitulo{
+color: whitesmoke;
+font-weight: 9000; 
+text-align: center; 
+
+}
+
+.divhorsalturn{
+    text-overflow:clip;
+    overflow: auto;
+    align-items: center;
+    font-size: 75%;
+}
+
+.horsaltur{
+        display: inline-block;
+        width: 30%;
+        border-color: black;
+        border-width:1px;
+        border-style: solid;
+        text-align: center;       
+}
+
+.aetiemp{
+    display: inline-block;
+    width: 30%;
+    border-top: 1%;
+    overflow: hidden;
+    font-size: auto;
+}
+.hr1{
+    align-items: center;
+   }
+
+.divmas{
+    /*background-color: yellowgreen;*/
+    width: 35%;
+    border-radius: 6px;
+    border-top: 30px;
+    overflow-y: scroll;
+}
+
+.sinvis{
+    display: none;
+}
+
+
+
+.divisualizar{
+    background-color: aqua;
+    
+    height: auto;
+    margin-left: 3px;
+    overflow-x: hidden;
+    white-space: nowrap;
+    border-radius: 6px;
+
+}
+
+.labl{
+    background-color: blue;
+    font-weight: 3000;
+
+}
+.divmasterprin{
+    background-color: red;
+    display: inline-flex;
+    width: 100%;
+    overflow: hidden;
+    height: 80%;
+    
+}
+
+
+.divfunc{
+
+    height: 50px;
+    width: 30px;
+}
+
+
+
+.button{
+    height: 70%;
+    width: 25%;
+    border-radius: 3px;
+    margin-left: 70%;
+    margin-right: 10%;
+    font-size:105%;
+    background-color: #75ADB2;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    .hcampo .horsaltur .aetiemp {
+        text-overflow: ellipsis;
+
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .hcampo .horsaltur .aetiemp {
+        text-overflow: ellipsis;
+
+    }
+
+
+}

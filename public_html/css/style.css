@@ -1,0 +1,166 @@
+body{
+    background-color: #97AFDC;
+}
+
+
+#navegador{
+ 
+    border-radius: 10px;
+    border: 50cm;
+    text-align: left;
+    border-top: 120px;
+    box-shadow: 5px 5px 15px black inset;
+    display: inline-flex;
+    height: auto;
+    background-color: #132f3e;
+    border: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+#linea{
+    display: inline-flex;
+    background-color: #132f3e;
+    margin-top: 15px;
+    margin-block-end: 20px;
+    margin-left: 10px;
+    width: auto;
+    height: auto;
+    border: 10px solid #132f3e;
+    border-radius:5px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 4px 3px 10px black;
+    overflow: hidden;
+    background-position: 0 -725px;   
+    font-family:cursive;
+    font-size: 12; 
+    color: aliceblue;
+
+}
+
+
+
+#imglogo{
+    height:95%;
+    width: 110px;
+    padding: 1px 8px 0 6px;
+    margin: 1px;
+    align-items: center;
+    position: 50%;
+    border-left: 15px;
+    overflow: hidden;
+}
+
+    
+#login{
+  
+    background-color: #132f3e;
+    margin-top: 15px;
+    margin-block-end: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: auto;
+    height: auto;
+    border: 10px solid #132f3e;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 6px 5px 10px black;
+    color: aliceblue;
+    background-position: 0 -725px;   
+    font-family:cursive;
+    font-size: 12; 
+    overflow: hidden;
+    padding: 10px;
+}
+
+#padre{
+    display: inline-flex;
+    width: 100%;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 5px 5px 15px black inset;
+    height: auto;
+    background-color: #132f3e;
+    border: 10px;
+    width: 100%;
+    overflow: hidden;
+    font-weight: 800;
+}
+
+
+#linea:active{
+    color: black;
+    background-color: #B9D1DF;
+  
+    font-weight: 1800;
+    text-align: center;
+    height: 50px;
+
+}
+#divlogin{
+    width: 10%;
+    margin-top: 10px;
+}
+
+#buscar{
+    border-radius:5px;
+    color: black;
+    background-color: white;
+    display: inline-flex;
+    font-weight: 1800;
+    width: 45%;
+    height: 40px;
+    text-align: center;
+    margin-block-end: 50px;
+    margin-left: 3%;
+    margin-top: 25px;
+    margin-block-end: 20px;
+
+}
+
+#buscarbton{
+    background-color: #132f3e;
+    margin-top: 15px;
+    margin-block-end: 20px;
+    margin-left: 15px;
+    margin-right: 3%;
+    width: auto;
+    height: auto;
+    border: 10px solid #132f3e;
+    text-align: center;
+
+    justify-content:flex-start;
+    box-shadow: 6px 5px 10px black;
+    color: aliceblue;
+    background-position: 0 -725px;   
+    font-family:cursive;
+    font-size: 12; 
+    overflow: hidden;
+}
+@media screen and (max-width: 700px){
+    #login{
+    font-size:12px;
+    }
+    .linea{
+    font-size:18px;
+    }
+    }
+    /* Por debajo de 400px */
+   
+   
+ @media screen and (max-width: 400px){
+     #login{
+    font-size:auto;
+    width: auto;
+    height: auto;
+    }
+    #linea{
+    font-size:auto;
+
+    }
+    #divimglogo{
+        width: 50%;
+    }
+    }

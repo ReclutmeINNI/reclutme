@@ -1,0 +1,130 @@
+  
+body{
+  background-color: #97AFDC;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #97AFDC
+}
+.formulario {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 390px;
+    padding: 30px;
+    border: 2px solid #000;
+    background-color: #132f3e;
+    color: aliceblue;
+    align-items: center;
+    border-radius: 30px;
+   text-align: center;
+   font-weight: 1000;
+   
+  }
+
+  
+.formulario .input-label {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+    text-align: center;
+ 
+    margin-right: 1px;
+    background-color: #132f3e;
+  }
+
+  
+.formulario input {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px rgba(53, 97, 155, 0.527);
+    width: 100%;
+
+    
+  }
+
+  .formulario .image{
+      position:relative;
+      border-radius: 30px;
+      text-align: center;
+ 
+    }
+
+.formulario .master{
+  background-color: #132f3e;
+ margin-top: 15px;
+}
+
+
+
+.formulario .padre{
+  display: inline-flex;
+  background-color: #132f3e;
+  width: 100%;
+  margin-top: 5px;
+}
+.formulario .hijo{
+
+ margin-right: 5px;
+ width: 50%;
+ text-align: left;
+ overflow:hidden;
+ text-overflow:unset;
+ background-color: #132f3e;
+}
+
+
+.formulario .hijo2{
+  background-color: #132f3e;
+    width: 100%;
+    text-align: right;
+    
+ }
+
+
+
+button {
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 600;
+  margin: 0 10px;
+  width: 200px;
+  padding: 10px 0;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+  transition: 0.4s;
+}
+
+
+.log {
+  color: rgb(104, 85, 224);
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(104, 85, 224, 1);
+}
+
+button:hover {
+  color: white;
+  width:;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+  background-color: rgba(104, 85, 224, 1);
+}
+
+
+.hr1 {
+    height: 1px;
+    background-color: white;
+  }
